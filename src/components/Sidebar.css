@@ -1,0 +1,42 @@
+.sidebar {
+  width: 300px;
+  min-width: 300px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+.sidebar-content {
+  position: fixed;
+  width: inherit;
+}
+.sidebar .user {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 40px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.sidebar .links {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.sidebar .links li {
+  margin-top: 50px;
+}
+.sidebar .links a {
+  display: flex;
+  padding: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+  width: 100%;
+  color: black;
+  box-sizing: border-box;
+}
+
+.left {
+  background: lightskyblue;
+}

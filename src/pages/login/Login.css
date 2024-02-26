@@ -1,0 +1,58 @@
+.login-card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.form-group {
+  margin-top: 3%;
+}
+
+input {
+  width: 70%;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: dotted #87ceeb;
+}
+
+.btn {
+  background: pink;
+  padding: 20px 40px;
+  font-family: "Handlee", cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 1em;
+  border: none;
+  float: right;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: gray;
+}
+
+.login {
+  background-image: url(../../images/login.webp);
+  opacity: 0.5;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-user {
+  position: absolute;
+  bottom: 0;
+}

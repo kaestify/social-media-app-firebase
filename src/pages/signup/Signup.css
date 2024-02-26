@@ -1,0 +1,58 @@
+.signup-card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.form-group {
+  margin-top: 3%;
+}
+
+input {
+  width: 70%;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: dotted #87ceeb;
+}
+
+.btn {
+  background: pink;
+  padding: 15px 30px;
+  font-family: "Handlee", cursive;
+  color: black;
+  cursor: pointer;
+  font-size: 0.8em;
+  border: none;
+  float: right;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: gray;
+}
+
+.signup {
+  background-image: url(../../images/signup.png);
+  opacity: 0.5;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.old-user {
+  position: absolute;
+  bottom: 0;
+}

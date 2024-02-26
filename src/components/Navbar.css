@@ -1,0 +1,34 @@
+.navbar {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  height: 50px;
+  /* background-color: #d5defd; */
+  background-color: #ffeeec;
+  line-height: 50px;
+}
+.navbar ul {
+  flex: 1;
+  text-align: right;
+  list-style: none;
+  margin: 0 30px;
+}
+.navbar ul li {
+  list-style-type: none;
+  font-size: large;
+  display: inline-block;
+  transition: 0.7s all;
+}
+.navbar ul li:hover {
+  background-color: pink;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 30px;
+}
+.new-post-li {
+  padding: 0 30px;
+  text-decoration: none;
+  color: black;
+}
